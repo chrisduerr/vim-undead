@@ -22,7 +22,7 @@ let s:V2   = [ '#ff00ff', '#ff00ff', 7, 8 ]
 let s:V3   = [ '#ff00ff', '#ff00ff', 7, 8 ]
 let g:airline#themes#undead#palette.visual = airline#themes#generate_color_map(s:V1, s:V2, s:V3)
 
-let s:IA1   = [ '#ff00ff', '#ff00ff', 0, 5 ]
+let s:IA1   = [ '#ff00ff', '#ff00ff', 0, 7 ]
 let s:IA2   = [ '#ff00ff', '#ff00ff', 7, 8 ]
 let s:IA3   = [ '#ff00ff', '#ff00ff', 7, 8 ]
 let g:airline#themes#undead#palette.inactive = airline#themes#generate_color_map(s:IA1, s:IA2, s:IA3)
