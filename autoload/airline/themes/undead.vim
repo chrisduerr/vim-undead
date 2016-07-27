@@ -1,22 +1,16 @@
 " Template: Base 16 Default Scheme by Chris Kempson (http://chriskempson.com)
 " Vim Airline Undead by UndeadLeech (https://undeadleech.com)
 let g:airline#themes#undead#palette = {}
-let s:gui00 = "#181818"
-let s:gui01 = "#282828"
-let s:gui02 = "#383838"
-let s:gui03 = "#585858"
-let s:gui04 = "#b8b8b8"
-let s:gui05 = "#d8d8d8"
-let s:gui06 = "#e8e8e8"
-let s:gui07 = "#f8f8f8"
-let s:gui08 = "#ab4642"
-let s:gui09 = "#dc9656"
-let s:gui0A = "#f7ca88"
-let s:gui0B = "#a1b56c"
-let s:gui0C = "#86c1b9"
-let s:gui0D = "#7cafc2"
-let s:gui0E = "#ba8baf"
-let s:gui0F = "#a16946"
+let s:gui00 = "#121212"
+let s:gui08 = "#212121"
+let s:gui07 = "#616161"
+let s:gui15 = "#9e9e9e"
+let s:gui01 = "#702020"
+let s:gui02 = "#90a959"
+let s:gui03 = "#f4bf75"
+let s:gui04 = "#6a9fb5"
+let s:gui05 = "#aa759f"
+let s:gui06 = "#75b5aa"
 
 let s:cterm00 = 233
 let s:cterm01 = 235
@@ -35,9 +29,9 @@ let s:cterm0D = 109
 let s:cterm0E = 139
 let s:cterm0F = 131
 
-let s:N1   = [ s:gui01, s:gui0B, s:cterm01, s:cterm0B ]
-let s:N2   = [ s:gui06, s:gui02, s:cterm06, s:cterm02 ]
-let s:N3   = [ s:gui09, s:gui01, s:cterm09, s:cterm01 ]
+let s:N1   = [ s:gui00, s:gui01, s:cterm01, s:cterm0B ]
+let s:N2   = [ s:gui07, s:gui08, s:cterm06, s:cterm02 ]
+let s:N3   = [ s:gui07, s:gui08, s:cterm09, s:cterm01 ]
 let g:airline#themes#undead#palette.normal = airline#themes#generate_color_map(s:N1, s:N2, s:N3)
 
 let s:I1   = [ s:gui01, s:gui0D, s:cterm01, s:cterm0D ]
