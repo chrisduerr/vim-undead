@@ -29,9 +29,9 @@ let s:cterm0D = 109
 let s:cterm0E = 139
 let s:cterm0F = 131
 
-let s:N1   = [ s:gui00, s:gui01, s:cterm01, s:cterm0B ]
-let s:N2   = [ s:gui07, s:gui08, s:cterm06, s:cterm02 ]
-let s:N3   = [ s:gui07, s:gui08, s:cterm09, s:cterm01 ]
+let s:N1   = [ s:gui00, s:gui01, 1, 1 ]
+let s:N2   = [ s:gui07, s:gui08, 1, 1 ]
+let s:N3   = [ s:gui07, s:gui08, 1, 1 ]
 let g:airline#themes#undead#palette.normal = airline#themes#generate_color_map(s:N1, s:N2, s:N3)
 
 let s:I1   = [ s:gui01, s:gui0D, s:cterm01, s:cterm0D ]
