@@ -25,7 +25,7 @@ let s:func=1
 let s:str=3
 let s:type=6
 let s:var=2
-let s:warning=1
+let s:warning=9
 let s:warning2=11
 
 exe 'hi Normal ctermfg='s:fg' ctermbg='s:bg
@@ -50,8 +50,8 @@ exe 'hi Comment ctermfg='s:comment
 exe 'hi Conditional ctermfg='s:keyword
 exe 'hi Constant ctermfg='s:const
 exe 'hi Define ctermfg='s:keyword
-exe 'hi DiffAdd ctermfg=#f8f8f8 ctermbg=#46830c gui=bold'
-exe 'hi DiffDelete ctermfg=#ff0000'
+exe 'hi DiffAdd ctermfg='s:fg' ctermbg='s:var' gui=bold'
+exe 'hi DiffDelete ctermfg='s:warning
 exe 'hi DiffChange ctermfg='s:fg' ctermbg='s:var
 exe 'hi DiffText ctermfg='s:fg' ctermbg='s:builtin' gui=bold'
 exe 'hi ErrorMsg ctermfg='s:warning' ctermbg='s:bg2' gui=bold'
