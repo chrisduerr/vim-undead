@@ -31,7 +31,7 @@ let s:warning2=11
 exe 'hi Normal ctermfg='s:fg
 exe 'hi Cursor ctermfg='s:bg' ctermbg='s:fg
 exe 'hi Cursorline  ctermbg='s:bg2
-exe 'hi CursorLineNr ctermbg='s:fg2' ctermfg='s:bg2
+exe 'hi CursorLineNr ctermbg='s:bg2' ctermfg='s:fg
 exe 'hi CursorColumn  ctermbg='s:bg2
 exe 'hi ColorColumn  ctermbg='s:bg2
 exe 'hi LineNr ctermfg='s:fg2' ctermbg='s:bg2
