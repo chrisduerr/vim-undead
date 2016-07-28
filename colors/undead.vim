@@ -28,9 +28,10 @@ let s:var=2
 let s:warning=9
 let s:warning2=11
 
-exe 'hi Normal ctermfg='s:fg' ctermbg='s:bg
+exe 'hi Normal ctermfg='s:fg
 exe 'hi Cursor ctermfg='s:bg' ctermbg='s:fg
 exe 'hi Cursorline  ctermbg='s:bg2
+exe 'hi CursorLineNr ctermbg='s:fg2' ctermfg='s:bg2
 exe 'hi CursorColumn  ctermbg='s:bg2
 exe 'hi ColorColumn  ctermbg='s:bg2
 exe 'hi LineNr ctermfg='s:fg2' ctermbg='s:bg2
