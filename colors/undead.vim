@@ -62,7 +62,7 @@ exe 'hi Function ctermfg='s:func
 exe 'hi Identifier ctermfg='s:type'  gui=italic'
 exe 'hi Keyword ctermfg='s:keyword'  gui=bold'
 exe 'hi Label ctermfg='s:var
-exe 'hi NonText ctermfg='s:bg2' ctermbg='s:bg2
+exe 'hi NonText ctermfg='s:fg2
 exe 'hi Number ctermfg='s:const
 exe 'hi Operater ctermfg='s:keyword
 exe 'hi PreProc ctermfg='s:keyword
