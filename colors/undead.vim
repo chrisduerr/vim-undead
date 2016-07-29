@@ -38,8 +38,8 @@ exe 'hi LineNr ctermfg='s:fg2' ctermbg='s:bg2
 exe 'hi VertSplit ctermfg='s:fg2' ctermbg='s:bg2
 exe 'hi MatchParen ctermfg='s:warning2'  gui=underline'
 exe 'hi StatusLine ctermfg='s:fg2' ctermbg='s:bg2' gui=bold'
-exe 'hi Pmenu ctermfg='s:fg' ctermbg='s:bg2
-exe 'hi PmenuSel  ctermbg='s:bg2
+exe 'hi Pmenu ctermfg='s:fg2' ctermbg='s:bg2
+exe 'hi PmenuSel ctermfg='s:fg' ctermbg='s:bg2
 exe 'hi IncSearch ctermfg='s:bg' ctermbg='s:keyword
 exe 'hi Search   gui=underline'
 exe 'hi Directory ctermfg='s:const
