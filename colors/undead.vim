@@ -110,11 +110,11 @@ exe 'hi mkdCode ctermfg='s:builtin
 
 " Startify colors
 exe 'hi StartifyBracket ctermfg='s:fg
-exe 'hi StartifyFile ctermfg='s:keyword
+exe 'hi StartifyFile ctermfg='s:type
 exe 'hi StartifyFooter ctermfg='s:fg
 exe 'hi StartifyHeader ctermfg='s:fg
 exe 'hi StartifyNumber ctermfg='s:func
-exe 'hi StartifyPath ctermfg='s:fg
+exe 'hi StartifyPath ctermfg='s:keyword
 exe 'hi StartifySection ctermfg='s:var
 exe 'hi StartifySelect ctermfg='s:type
 exe 'hi StartifySlash ctermfg='s:keyword
