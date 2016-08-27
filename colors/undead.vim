@@ -36,12 +36,12 @@ exe 'hi CursorColumn  ctermbg='s:bg2
 exe 'hi ColorColumn  ctermbg='s:bg2
 exe 'hi LineNr ctermfg='s:fg2' ctermbg='s:bg2
 exe 'hi VertSplit ctermfg='s:fg2' ctermbg='s:bg2
-exe 'hi MatchParen ctermfg='s:warning2'  gui=underline'
-exe 'hi StatusLine ctermfg='s:fg2' ctermbg='s:bg2' gui=bold'
+exe 'hi MatchParen ctermfg='s:fg' ctermbg='s:bg2
+exe 'hi StatusLine ctermfg='s:fg2' ctermbg='s:bg2
 exe 'hi Pmenu ctermfg='s:fg2' ctermbg='s:bg2
 exe 'hi PmenuSel ctermfg='s:fg' ctermbg='s:bg2
 exe 'hi IncSearch ctermfg='s:bg' ctermbg='s:keyword
-exe 'hi Search   gui=underline'
+exe 'hi Search ctermfg='s:fg' ctermbg='s:bg2
 exe 'hi Directory ctermfg='s:const
 exe 'hi Folded ctermfg='s:fg2' ctermbg='s:bg
 
@@ -51,16 +51,16 @@ exe 'hi Comment ctermfg='s:comment
 exe 'hi Conditional ctermfg='s:keyword
 exe 'hi Constant ctermfg='s:const
 exe 'hi Define ctermfg='s:keyword
-exe 'hi DiffAdd ctermfg='s:fg' ctermbg='s:var' gui=bold'
+exe 'hi DiffAdd ctermfg='s:fg' ctermbg='s:var
 exe 'hi DiffDelete ctermfg='s:warning
 exe 'hi DiffChange ctermfg='s:fg' ctermbg='s:var
-exe 'hi DiffText ctermfg='s:fg' ctermbg='s:builtin' gui=bold'
-exe 'hi ErrorMsg ctermfg='s:warning' ctermbg='s:bg2' gui=bold'
+exe 'hi DiffText ctermfg='s:fg' ctermbg='s:builtin
+exe 'hi ErrorMsg ctermfg='s:warning' ctermbg='s:bg2
 exe 'hi WarningMsg ctermfg='s:fg' ctermbg='s:warning2
 exe 'hi Float ctermfg='s:const
 exe 'hi Function ctermfg='s:func
-exe 'hi Identifier ctermfg='s:type'  gui=italic'
-exe 'hi Keyword ctermfg='s:keyword'  gui=bold'
+exe 'hi Identifier ctermfg='s:type
+exe 'hi Keyword ctermfg='s:keyword
 exe 'hi Label ctermfg='s:var
 exe 'hi NonText ctermfg='s:fg2
 exe 'hi Number ctermfg='s:const
@@ -69,23 +69,22 @@ exe 'hi PreProc ctermfg='s:keyword
 exe 'hi Special ctermfg='s:fg
 exe 'hi SpecialKey ctermfg='s:fg2' ctermbg='s:bg2
 exe 'hi Statement ctermfg='s:keyword
-exe 'hi StorageClass ctermfg='s:type'  gui=italic'
+exe 'hi StorageClass ctermfg='s:type
 exe 'hi String ctermfg='s:str
 exe 'hi Tag ctermfg='s:keyword
-exe 'hi Title ctermfg='s:fg'  gui=bold'
-exe 'hi Todo ctermfg='s:fg2'  gui=inverse,bold'
+exe 'hi Title ctermfg='s:fg
+exe 'hi Todo ctermfg='s:warning' ctermbg='s:bg
 exe 'hi Type ctermfg='s:type
-exe 'hi Underlined   gui=underline'
 
 " Ruby Highlighting
 exe 'hi rubyAttribute ctermfg='s:builtin
 exe 'hi rubyLocalVariableOrMethod ctermfg='s:var
-exe 'hi rubyGlobalVariable ctermfg='s:var' gui=italic'
+exe 'hi rubyGlobalVariable ctermfg='s:var
 exe 'hi rubyInstanceVariable ctermfg='s:var
 exe 'hi rubyKeyword ctermfg='s:keyword
-exe 'hi rubyKeywordAsMethod ctermfg='s:keyword' gui=bold'
-exe 'hi rubyClassDeclaration ctermfg='s:keyword' gui=bold'
-exe 'hi rubyClass ctermfg='s:keyword' gui=bold'
+exe 'hi rubyKeywordAsMethod ctermfg='s:keyword
+exe 'hi rubyClassDeclaration ctermfg='s:keyword
+exe 'hi rubyClass ctermfg='s:keyword
 exe 'hi rubyNumber ctermfg='s:const
 
 " Python Highlighting
@@ -96,12 +95,12 @@ exe 'hi goBuiltins ctermfg='s:builtin
 
 " Javascript Highlighting
 exe 'hi jsBuiltins ctermfg='s:builtin
-exe 'hi jsFunction ctermfg='s:keyword' gui=bold'
+exe 'hi jsFunction ctermfg='s:keyword
 exe 'hi jsGlobalObjects ctermfg='s:type
 exe 'hi jsAssignmentExps ctermfg='s:var
 
 " Html Highlighting
-exe 'hi htmlLink ctermfg='s:var' gui=underline'
+exe 'hi htmlLink ctermfg='s:var
 exe 'hi htmlStatement ctermfg='s:keyword
 exe 'hi htmlSpecialTagName ctermfg='s:keyword
 
