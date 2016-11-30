@@ -40,7 +40,7 @@ exe 'hi MatchParen ctermfg='s:fg' ctermbg='s:bg2
 exe 'hi StatusLine ctermfg='s:fg2' ctermbg='s:bg2
 exe 'hi Pmenu ctermfg='s:fg2' ctermbg='s:bg2
 exe 'hi PmenuSel ctermfg='s:fg' ctermbg='s:bg2
-exe 'hi IncSearch ctermfg='s:bg' ctermbg='s:keyword
+exe 'hi IncSearch ctermfg='s:fg' ctermbg='s:bg2
 exe 'hi Search ctermfg='s:fg' ctermbg='s:bg2
 exe 'hi Directory ctermfg='s:const
 exe 'hi Folded ctermfg='s:fg2' ctermbg='s:bg
