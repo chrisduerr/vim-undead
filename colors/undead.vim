@@ -35,7 +35,7 @@ exe 'hi CursorLineNr ctermbg='s:bg2' ctermfg='s:fg
 exe 'hi CursorColumn  ctermbg='s:bg2
 exe 'hi ColorColumn  ctermbg='s:bg2
 exe 'hi LineNr ctermfg='s:fg2' ctermbg='s:bg2
-exe 'hi VertSplit ctermfg='s:fg2' ctermbg='s:bg2
+exe 'hi VertSplit ctermfg='s:warning' ctermbg='s:bg
 exe 'hi MatchParen ctermfg='s:fg' ctermbg='s:bg2
 exe 'hi StatusLine ctermfg='s:fg2' ctermbg='s:bg2
 exe 'hi Pmenu ctermfg='s:fg2' ctermbg='s:bg2
