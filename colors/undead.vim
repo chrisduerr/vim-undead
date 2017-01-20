@@ -17,16 +17,17 @@ let s:bg=0
 let s:fg=15
 let s:fg2=7
 let s:bg2=8
+let s:str=3
+let s:var=2
+let s:type=6
+let s:func=1
+let s:error=1
+let s:const=5
 let s:keyword=4
 let s:builtin=1
-let s:const=5
 let s:comment=7
-let s:func=1
-let s:str=3
-let s:type=6
-let s:var=2
-let s:warning=9
-let s:warning2=11
+let s:warning=3
+let s:highlight=9
 
 exe 'hi Normal ctermfg='s:fg
 exe 'hi Cursor ctermfg='s:bg' ctermbg='s:fg
@@ -52,11 +53,11 @@ exe 'hi Conditional ctermfg='s:keyword
 exe 'hi Constant ctermfg='s:const
 exe 'hi Define ctermfg='s:keyword
 exe 'hi DiffAdd ctermfg='s:fg' ctermbg='s:var
-exe 'hi DiffDelete ctermfg='s:warning
+exe 'hi DiffDelete ctermfg='s:error
 exe 'hi DiffChange ctermfg='s:fg' ctermbg='s:var
 exe 'hi DiffText ctermfg='s:fg' ctermbg='s:builtin
-exe 'hi ErrorMsg ctermfg='s:warning' ctermbg='s:bg2
-exe 'hi WarningMsg ctermfg='s:fg' ctermbg='s:warning2
+exe 'hi ErrorMsg ctermfg='s:error' ctermbg='s:bg
+exe 'hi WarningMsg ctermfg='s:warning' ctermbg='s:bg
 exe 'hi Float ctermfg='s:const
 exe 'hi Function ctermfg='s:func
 exe 'hi Identifier ctermfg='s:type
@@ -73,7 +74,7 @@ exe 'hi StorageClass ctermfg='s:type
 exe 'hi String ctermfg='s:str
 exe 'hi Tag ctermfg='s:keyword
 exe 'hi Title ctermfg='s:fg
-exe 'hi Todo ctermfg='s:warning' ctermbg='s:bg
+exe 'hi Todo ctermfg='s:error' ctermbg='s:bg
 exe 'hi Type ctermfg='s:type
 
 " Ruby Highlighting
@@ -119,3 +120,13 @@ exe 'hi StartifySelect ctermfg='s:type
 exe 'hi StartifySlash ctermfg='s:keyword
 exe 'hi StartifySpecial ctermfg='s:str
 exe 'hi StartifyVar ctermfg='s:var
+
+" StatusLine
+exe 'hi StatusLine ctermfg='s:bg2' ctermbg='s:fg2
+exe 'hi WildMenu ctermfg='s:bg' ctermbg='s:highlight
+
+" Bufferline
+exe 'hi BufferLineSel cterm=bold ctermfg='s:fg' ctermbg='s:bg2
+exe 'hi BufferLine ctermfg='s:fg2' ctermbg='s:bg2
+exe 'hi StatusLineNC ctermfg='s:bg2' ctermbg='s:fg2
+
