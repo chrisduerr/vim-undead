@@ -31,11 +31,11 @@ let s:highlight=9
 
 exe 'hi Normal ctermfg='s:fg
 exe 'hi Cursor ctermfg='s:bg' ctermbg='s:fg
-exe 'hi Cursorline  ctermbg='s:bg2
-exe 'hi CursorLineNr ctermbg='s:bg2' ctermfg='s:fg
-exe 'hi CursorColumn  ctermbg='s:bg2
-exe 'hi ColorColumn  ctermbg='s:bg2
-exe 'hi LineNr ctermfg='s:fg2' ctermbg='s:bg2
+exe 'hi Cursorline  ctermbg='s:bg
+exe 'hi CursorLineNr ctermbg='s:bg' ctermfg='s:fg
+exe 'hi CursorColumn  ctermbg='s:bg
+exe 'hi ColorColumn  ctermbg='s:bg
+exe 'hi LineNr ctermfg='s:fg2' ctermbg='s:bg
 exe 'hi VertSplit ctermfg='s:bg' ctermbg='s:bg
 exe 'hi MatchParen ctermfg='s:fg' ctermbg='s:bg2
 exe 'hi StatusLine ctermfg='s:fg2' ctermbg='s:bg2
@@ -130,3 +130,5 @@ exe 'hi BufferLineSel cterm=bold ctermfg='s:fg' ctermbg='s:bg2
 exe 'hi BufferLine ctermfg='s:fg2' ctermbg='s:bg2
 exe 'hi StatusLineNC ctermfg='s:bg2' ctermbg='s:fg2
 
+" Hide '~' beyond EOF
+exe 'hi EndOfBuffer ctermfg='s:bg
