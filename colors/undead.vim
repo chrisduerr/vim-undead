@@ -67,7 +67,7 @@ exe 'hi NonText ctermfg='s:fg2
 exe 'hi Number ctermfg='s:const
 exe 'hi Operater ctermfg='s:keyword
 exe 'hi PreProc ctermfg='s:keyword
-exe 'hi Special ctermfg='s:fg
+exe 'hi Special ctermfg='s:fg2
 exe 'hi SpecialKey ctermfg='s:fg2' ctermbg='s:bg2
 exe 'hi Statement ctermfg='s:keyword
 exe 'hi StorageClass ctermfg='s:type
