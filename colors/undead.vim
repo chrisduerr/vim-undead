@@ -30,6 +30,7 @@ let s:warning=3
 let s:highlight=9
 
 exe 'hi Normal ctermfg='s:fg
+exe 'hi Visual ctermbg='s:bg2
 exe 'hi Cursor ctermfg='s:bg' ctermbg='s:fg
 exe 'hi Cursorline  ctermbg='s:bg
 exe 'hi CursorLineNr ctermbg='s:bg' ctermfg='s:fg
@@ -41,8 +42,8 @@ exe 'hi MatchParen ctermfg='s:fg' ctermbg='s:bg2
 exe 'hi StatusLine ctermfg='s:fg2' ctermbg='s:bg2
 exe 'hi Pmenu ctermfg='s:fg2' ctermbg='s:bg2
 exe 'hi PmenuSel ctermfg='s:fg' ctermbg='s:bg2
-exe 'hi IncSearch ctermfg='s:fg' ctermbg='s:bg2
-exe 'hi Search ctermfg='s:fg' ctermbg='s:bg2
+exe 'hi IncSearch cterm=NONE ctermbg='s:bg2
+exe 'hi Search ctermbg='s:bg2
 exe 'hi Directory ctermfg='s:const
 exe 'hi Folded ctermfg='s:fg2' ctermbg='s:bg
 
@@ -132,3 +133,7 @@ exe 'hi StatusLineNC ctermfg='s:bg2' ctermbg='s:fg2
 
 " Hide '~' beyond EOF
 exe 'hi EndOfBuffer ctermfg='s:bg
+
+" Can be used for plugins (Denite for example)
+exe 'hi NormalBold cterm=bold ctermfg='s:fg
+
