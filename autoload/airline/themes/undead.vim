@@ -26,3 +26,11 @@ let s:IA1   = [ '#ff00ff', '#ff00ff', 0, 7 ]
 let s:IA2   = [ '#ff00ff', '#ff00ff', 7, 8 ]
 let s:IA3   = [ '#ff00ff', '#ff00ff', 7, 8 ]
 let g:airline#themes#undead#palette.inactive = airline#themes#generate_color_map(s:IA1, s:IA2, s:IA3)
+
+let g:airline#themes#undead#palette.tabline = {
+    \ 'airline_tab':      [ '#ff00ff' , '#ff00ff' , 7 , 8 , '' ],
+    \ 'airline_tabsel':   [ '#ff00ff' , '#ff00ff' , 0 , 9 , '' ],
+    \ 'airline_tabmod':   [ '#ff00ff' , '#ff00ff' , 0 , 9 , '' ],
+    \ 'airline_tabfill':  [ '#ff00ff' , '#ff00ff' , 7 , 8 , '' ],
+    \ 'airline_tablabel': [ '#ff00ff' , '#ff00ff' , 0 , 9 , '' ],
+    \ }
