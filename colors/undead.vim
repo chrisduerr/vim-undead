@@ -20,7 +20,7 @@ exe 'hi WarningMsg   ctermbg=0  ctermfg=3'
 exe 'hi VertSplit    ctermbg=0  ctermfg=0'
 exe 'hi IncSearch    ctermbg=8             cterm=NONE'
 exe 'hi Directory               ctermfg=5'
-exe 'hi PmenuSel     ctermbg=8  ctermfg=0'
+exe 'hi PmenuSel     ctermbg=8  ctermfg=15'
 exe 'hi ErrorMsg     ctermfg=1  ctermbg=0'
 exe 'hi NonText                 ctermfg=7'
 exe 'hi Folded       ctermfg=7  ctermbg=0'
@@ -63,5 +63,4 @@ exe 'hi WildMenu     ctermbg=9  ctermfg=0'
 exe 'hi EndOfBuffer             ctermfg=0'
 
 " Bold normal text, used by Denite
-exe 'hi NormalBold   ctermfg=0             cterm=bold'
-
+exe 'hi NormalBold   ctermfg=15            cterm=bold'
