@@ -58,6 +58,11 @@ exe 'hi Todo         ctermbg=0  ctermfg=1'
 exe 'hi Type                    ctermfg=6'
 exe 'hi Tag                     ctermfg=4'
 
+" Code diff
+exe 'hi DiffAdd      ctermbg=0  ctermfg=2'
+exe 'hi DiffChange   ctermbg=0  ctermfg=3'
+exe 'hi DiffDelete   ctermbg=0  ctermfg=1'
+
 " Menu for stuff like ':e <Completion>'
 exe 'hi StatusLine   ctermbg=7  ctermfg=8'
 exe 'hi WildMenu     ctermbg=9  ctermfg=0'
