@@ -58,6 +58,12 @@ exe 'hi Todo         ctermbg=0  ctermfg=1'
 exe 'hi Type                    ctermfg=6'
 exe 'hi Tag                     ctermfg=4'
 
+" Gutter
+exe 'hi SignColumn      ctermbg=0  ctermfg=15'
+exe 'hi GitGutterAdd    ctermbg=0  ctermfg=2'
+exe 'hi GitGutterChange ctermbg=0  ctermfg=3'
+exe 'hi GitGutterDelete ctermbg=0  ctermfg=1'
+
 " Code diff
 exe 'hi DiffAdd      ctermbg=0  ctermfg=2'
 exe 'hi DiffChange   ctermbg=0  ctermfg=3'
