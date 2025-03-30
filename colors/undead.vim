@@ -70,8 +70,9 @@ exe 'hi DiffAdd      ctermbg=0  ctermfg=2'
 exe 'hi DiffChange   ctermbg=0  ctermfg=3'
 exe 'hi DiffDelete   ctermbg=0  ctermfg=1'
 
-" Menu for stuff like ':e <Completion>'
-exe 'hi StatusLine   ctermbg=7  ctermfg=8'
+" Status line and its menus for (like ':e <Completion>')
+exe 'hi StatusLineNC                       cterm=NONE'
+exe 'hi StatusLine   ctermbg=7  ctermfg=8  cterm=NONE'
 exe 'hi WildMenu     ctermbg=9  ctermfg=0'
 
 " Hide '~' beyond EOF
